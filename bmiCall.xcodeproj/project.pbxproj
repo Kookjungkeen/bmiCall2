@@ -17,6 +17,7 @@
 		2202BADB279C5AEE001E5196 /* bmiCallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2202BADA279C5AEE001E5196 /* bmiCallTests.swift */; };
 		2202BAE5279C5AEE001E5196 /* bmiCallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2202BAE4279C5AEE001E5196 /* bmiCallUITests.swift */; };
 		2202BAE7279C5AEE001E5196 /* bmiCallUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2202BAE6279C5AEE001E5196 /* bmiCallUITestsLaunchTests.swift */; };
+		2202BAF4279C5DF9001E5196 /* dumbbell.png in Resources */ = {isa = PBXBuildFile; fileRef = 2202BAF3279C5DF9001E5196 /* dumbbell.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		2202BAE0279C5AEE001E5196 /* bmiCallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bmiCallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2202BAE4279C5AEE001E5196 /* bmiCallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bmiCallUITests.swift; sourceTree = "<group>"; };
 		2202BAE6279C5AEE001E5196 /* bmiCallUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bmiCallUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2202BAF3279C5DF9001E5196 /* dumbbell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dumbbell.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				2202BAC0279C5AED001E5196 /* AppDelegate.swift */,
 				2202BAC2279C5AED001E5196 /* SceneDelegate.swift */,
 				2202BAC4279C5AED001E5196 /* ViewController.swift */,
+				2202BAF3279C5DF9001E5196 /* dumbbell.png */,
 				2202BAC6279C5AED001E5196 /* Main.storyboard */,
 				2202BACC279C5AEE001E5196 /* Assets.xcassets */,
 				2202BACE279C5AEE001E5196 /* LaunchScreen.storyboard */,
@@ -236,6 +239,7 @@
 			files = (
 				2202BAD0279C5AEE001E5196 /* LaunchScreen.storyboard in Resources */,
 				2202BACD279C5AEE001E5196 /* Assets.xcassets in Resources */,
+				2202BAF4279C5DF9001E5196 /* dumbbell.png in Resources */,
 				2202BAC8279C5AED001E5196 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
