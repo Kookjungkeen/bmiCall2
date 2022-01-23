@@ -12,7 +12,26 @@ class ViewController: UIViewController {
     @IBOutlet var txtHeight: UITextField!
     @IBOutlet var txtWeight: UITextField!
     @IBOutlet var lblResult: UILabel!
-    
+    @IBAction func segMent(_ sender: UISegmentedControl) {
+        //UISegmentedControl 코드
+        if sender.selectedSegmentIndex == 0{
+            // 인덱스 0번을 뜻함, 여성일 떄
+        }
+        else{ // 두 번째 인덱스를 뜻함, 남성일 떄
+        }
+            
+        
+    }
+    @IBAction func switchOnOff(_ sender: UISwitch) {
+        // UISwitch 액션 코드
+        if sender.isOn{
+            //switch가 on 상태일 때 실행 될 코드
+            
+        }else{
+            // switch가 off 상태일 때 실행 될 코드
+            
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
