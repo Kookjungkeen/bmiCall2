@@ -36,7 +36,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(true)
+        //view는 전체화면 모두를 누르면, endEditing이 종료된다.. true = 맞다 
+    }
 
     @IBAction func calcBmi(_ sender: UIButton) {
         // 텍스트가 없을 시 사용 코드
